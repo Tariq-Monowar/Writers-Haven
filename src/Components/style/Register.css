@@ -1,0 +1,88 @@
+/* Register.css */
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/* Setting common styles for input fields */
+.input-field {
+  width: 400px;
+  font-family: 'Courgette', cursive;
+  /* Add any other common styles for input fields here */
+}
+
+/* Styling the register form container */
+.registerForm {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courgette', cursive;
+}
+
+/* Styling the form titles */
+.form-titles {
+  font-family: 'Courgette', cursive;
+  /* letter-spacing: 2px; */
+  margin-top: 40px;
+  font-size: 5vmin;
+  font-weight: 900;
+}
+
+/* Styling user form containers */
+.user-form {
+  margin: 25px 0px;
+}
+
+/* Specific styles for input fields */
+.input-field {
+  border: none;
+  border-bottom: 1px solid;
+  background-color: transparent;
+  color: #000f18;
+  width: 400px;
+  font-size: 18px;
+}
+
+/* Additional styling for password fields */
+.password-field,
+.confirm-password-field {
+  padding-right: 27px;
+}
+
+/* Styling the hide/show password icons */
+.hide_show_icon {
+  font-size: 22px;
+  margin-left: -25px;
+}
+
+/* Styling the submit button */
+.submit-form {
+  color: #ffff;
+  background-color: #31556d;
+  padding: 5px 16px 7px 16px;
+  font-size: 18px;
+  font-family: 'Courgette', cursive;
+  border-radius: 10px;
+  margin: 15px 15px 10px 0px;
+  border: none;
+  box-shadow: rgba(39, 39, 39, 0.15) 0px 15px 25px, rgba(73, 73, 73, 0.05) 0px 5px 10px;
+  transition: .4s;
+}
+
+/* Styling the submit button on hover */
+.submit-form:hover {
+  transform: scale(1.1);
+  background-color: #0c2f44;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 500px) {
+  .input-field {
+    width: 300px;
+  }
+  .form-titles {
+    font-size: 8vmin;
+  }
+}

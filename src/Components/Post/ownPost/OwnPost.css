@@ -1,0 +1,17 @@
+.setingsIcon{
+    font-size: 18px;
+    margin-left: auto;
+    transition: .4s;
+}
+.setingsIcon:hover{
+    transform: scale(1.1);
+}
+.userPosts{
+    text-align: center;
+}
+.post-contanne{
+    text-align: center!important;
+}
+.ownPost-card{
+    margin-top: 55px;
+}

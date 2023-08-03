@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+/* Profile Page */
+.profile-ui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-header {
+  width: 100%;
+  height: 44vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  filter: blur(30px);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.profileData {
+  text-align: center;
+  position: relative;
+  margin-top: -100px;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+.updateIcon{
+  font-size: 30px;
+  margin-bottom: -160px;
+  margin-left: -50px;
+  transition: .4s;
+  color: #447697;
+}
+.updateIcon:hover{
+  transform: scale(1.2);
+  color: rgb(47, 208, 219);
+}
+
+.proData h1 {
+  color: #00010f;
+  font-family: "Courgette", cursive;
+  margin-top: 1.5rem;
+}
+
+.Post-section {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Modal */
+.modal{
+  /* padding-left: 5rem!important; */
+}
+.postTitle {
+  font-family: "Courgette", cursive;
+}
+
+.create-post {
+  text-align: center;
+  width: 300px;
+  font-family: "Courgette", cursive !important;
+  color: #ffff !important;
+  background-color: #31556d !important;
+  padding: 6px 17px 8px 17px !important;
+  font-size: 18px;
+  font-family: "Courgette", cursive;
+  border-radius: 10px;
+  margin: 15px 15px 10px 20px;
+  border: none;
+  box-shadow: rgba(39, 39, 39, 0.15) 0px 15px 25px,
+    rgba(73, 73, 73, 0.05) 0px 5px 10px !important;
+  transition: 0.4s;
+  border: none !important;
+}
+
+.modal-content {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+.modal-body {
+  width: 100%;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.modal-content{
+
+  /* width: 700px!important; */
+  /* margin: 0px auto;
+  justify-content: center; */
+}
+
+
+
+

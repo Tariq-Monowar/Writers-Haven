@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+.post-section{
+  text-align: center;
+}
+.containers{
+
+}
+.forCenter{
+
+}
+.postDetalse{
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid silver;
+  margin: 20px;
+  display: inline-block;
+  transition: .4s;
+  /* float: left; */
+}
+.postDetalse:hover{
+  transform: scale(1.05);
+}
+/* .cardbody{
+  width: 350px;
+  height: 300px;
+} */
+.post-by{
+  width: 100%;
+  display: flex;
+  margin: 15px 0px 0px 20px;
+}
+.post-by-title{
+  font-family: 'Courgette', cursive;
+  font-size: 17px;
+  margin-top: 12px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: #fff;
+  /* letter-spacing: 2px; */
+}
+.post-by-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+.post-title{
+  font-family: 'Courgette', cursive;
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  margin-top: 190px;
+  margin-left: 20px;
+}
