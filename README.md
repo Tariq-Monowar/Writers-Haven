@@ -1,6 +1,6 @@
 # Writer's Haven
 Welcome to the frontend part of Writer's Haven Express Server - a React.js application that forms the heart of the Writer's Haven platform. This frontend repository complements the backend part and brings the magic of Writer's Haven to life for writers and readers alike. Here, users can explore captivating posts
-- project Link:- ```https://writers-haven.netlify.app/``` (render.com & Netlify)
+- project Link:- https://writers-haven.netlify.app/(render.com & Netlify)
 ## Features
 - User-friendly Interface: The frontend boasts an intuitive and visually appealing interface that ensures a delightful user experience for writers and readers alike.
 - Post Display: Users can seamlessly browse through a wide array of enchanting posts, each capturing unique tales and perspectives.
